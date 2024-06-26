@@ -1,0 +1,69 @@
+img{
+  width:660px;
+  height: 670px;
+  position: relative;
+  top:80px;
+  
+  
+  
+}
+h1{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 4.5rem;
+  font-weight: bolder;
+}
+h2{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3.5rem;
+}
+p{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+}
+input {
+  padding: 15%;
+  margin: 10%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #fff;
+}
+i{
+  margin-top: 20%;
+  margin-right: 5%;
+}
+
+body{
+  background-color: #ECF2FF;
+}
+
+
+
+@media(max-width:900px){
+  img{
+    position:static;
+  }
+}
+
+
+
+.invalid{
+  visibility: hidden;
+}
+
+
+.iname{
+  visibility: visible;
+  color: red;
+}
+
+.iemail{
+  visibility: visible;
+  color: red;
+}
+
+.iphone{
+  visibility: visible;
+  color: red;
+}
